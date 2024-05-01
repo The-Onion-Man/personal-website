@@ -1,0 +1,9 @@
+* {
+  text-align: center;
+  font-family: 'Ubuntu Light', 'Century Gothic', sans-serif;
+}
+
+#body {
+  background-color: rgb(34, 34, 34);
+  color: antiquewhite;
+}
