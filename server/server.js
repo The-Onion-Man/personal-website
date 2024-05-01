@@ -4,7 +4,6 @@ const path = require('path');
 const cors = require('cors');
 const app = express();
 const PORT = 3000;
-const dbController = require('./controllers/dbController');
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
