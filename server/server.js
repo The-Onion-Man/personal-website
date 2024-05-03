@@ -10,9 +10,6 @@ app.use(express.json());
 
 app.use(express.static(path.resolve(__dirname, '../src')));
 
-//handles get request
-app.get('/getProjects', (req, res, next) => {});
-
 //handle unknown routes
 app.use((req, res) => {
   res.status(404).send('page was not found!!!!!!!');

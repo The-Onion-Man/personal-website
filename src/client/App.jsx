@@ -1,11 +1,12 @@
 import React from 'react';
+import MainContainer from './Containers/MainContainer';
 
 const App = () => {
   return (
     //render a container
 
     <div id='app' className='container'>
-      <h1>test heading :)</h1>
+      <MainContainer />
     </div>
   );
 };
